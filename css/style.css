@@ -154,14 +154,14 @@ a {
 .p-3 {
     padding: 16px;
 }
-.bg-azul-o {
-    background-color: rgb(67, 3, 112);
+.bg-green {
+    background-color: rgb(0, 255, 26);
 }
 .bg-azul-c {
     background-color: rgb(221, 213, 228);
 }
-.bg-orange {
-    background-color: orange;
+.bg-blue {
+    background-color: rgb(89, 47, 255);
 }
 .text-white {
     color: rgb(235, 227, 236);
@@ -170,6 +170,12 @@ a {
     color: red;
     font-size: 30px;
     background-color: cyan;
+}
+.text-green{
+color:rgb(0, 255, 55);
+font-size: 20px;
+background-color: #f0f0f0;
+
 }
 footer h1 {
     border-bottom-left-radius: 10px;
@@ -275,29 +281,30 @@ table.horario th.grupo {
     font-style: italic;
 }
 .fol {
-    background-color: #f0f0c8;
+    background-color: #59ec96;
 }
 .ende {
-    background-color: #27c8c7;
+    background-color: #4306fa;
 }
 .lm {
-    background-color: #ffd232;
+    background-color: #f13405;
 }
 .prog {
     background-color: #ba7777;
 }
 .sisi {
-    background-color: #b4b464;
+    background-color: #919100;
 }
 .ing {
     background-color: #ffa264;
 }
 .bd {
-    background-color: #fec8c8;
+    background-color: #100000;
 }
 .fol {
-    background-color: #f0f0c8;
+    background-color: #38da5e;
 }
 .fol {
-    background-color: #f0f0c8;
+    background-color: #60f442;
 }
+
