@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso HTML5-CSS3</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<style>
+
+    body {
+        background-color: rgb(119, 28, 204);
+    
+    }
+    
+    </style>
+<body>
+    <div class="container shadow">
+        <header>
+            <div class="row align-items-center">
+                <div class="col-3"><img src="img/Apunte_infor.jpg" alt="logo" width="350"></div>
+                <div class="col-9">
+                    <span id="btnmenu" onclick="opendrawer()">&#9776;</span>
+                    <nav id="menu">
+                        <ul class="text-right">
+                            <li>
+                                <a href="index.html">
+                                    <em>Home</em>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="parrafos.html">
+                                    <em>Párrafos</em>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="enlaces.html">
+                                    <em>Enlaces</em>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="listas.html">
+                                    <em>Listas</em>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="tablas.html">
+                                    <em>Horario</em>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="formularios.html">
+                                    <em>Formularios</em>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="multimedia.html">
+                                    <em>Multimedia</em>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+
+
+        </header>
+        <main class="shadow">
+            <div class="px-3">
+                <h1 class="text-center bg-azul-o text-white py-3">APUNTES INFORMÁTICA</h1>
+            </div>
+            <div class="px-3">
+                <hr>
+            </div>
+            <div class="p-3">
+                <div id="enlaces" class="py-3">
+                    <h2 class="text-center">ENLACES CLASE</h2>
+                    <p><a href="javascript:alert('Pulsa en -Pincha aquí- para acceder a los enlaces')">INFORMACIÓN</a></p>
+                    <h3>Enlace a classroom</h3> 
+                    <p><a href="https://edu.google.com/intl/es/workspace-for-education/classroom/">Pincha aqui</Pincha></a></p>
+                    <h3>Enlace a educamosCLM</h3>
+                    <p><a href="https://ssopapas.jccm.es/ssopapas/login?service=https%3A%2F%2Fpapas.jccm.es%2Faccesopapas%2Flogin%2Fcas">Pincha aqui</a></p>
+                    <h3>Enlace a gmail</h3>
+                    <p><a href="https://www.google.com/intl/es/gmail/about/">Pincha aqui</a></p>
+                    <h3>Enlace a la página de inglés</h3>
+                    <p><a href="https://edu.gcfglobal.org/en/">Pincha aqui</a></p>
+                    <h3>Enlace a Youtube</h3>
+                    <p><a href="https://www.youtube.com">Pincha aqui</a></p>
+                    <h3>Enlace a calendario escolar</h3>
+                    <p><a href="https://calendar.google.com/calendar/u/0/r/week/2023/11/28?cid=c_2b2f1cce82c79121e7f60cf7b14373b35c61f7d802b2368eb7270667fd430394%40group.calendar.google.com">Pincha aquí</a></p>
+                </div>
+            </div>
+
+        </main>
+        <footer>
+            <h1 class="bg-azul-o text-center text-white py-3">&copy; Fernando Redondo</h1>
+        </footer>
+    </div>
+    <script>
+        function opendrawer() {
+            document.getElementById('menu').style.display = 'block';
+            document.getElementById('menu').style.witdh = '100%';
+        }
+    </script>
+</body>
+
+</html>
